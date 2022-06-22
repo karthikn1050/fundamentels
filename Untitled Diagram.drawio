@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T12:10:05.580Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="20.0.2" etag="_JxfVxH0YPpPEr274Rd8" type="github"><diagram id="VWNeYOyXNQ5eoOPb-z_D">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-22T13:04:09.959Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="_aVQPjQOLqXMMebVZ5ww" version="20.0.2" type="github">
+  <diagram id="VWNeYOyXNQ5eoOPb-z_D" name="Page-1">
+    <mxGraphModel dx="1342" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-1" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Micro Service Architecture&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="244" y="40" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="PSvwiCBbMOOz6akU89Iw-2" target="PSvwiCBbMOOz6akU89Iw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-2" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-3" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="PSvwiCBbMOOz6akU89Iw-5" target="PSvwiCBbMOOz6akU89Iw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-7" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Returns JWT Token&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=19;" vertex="1" connectable="0" parent="PSvwiCBbMOOz6akU89Iw-6">
+          <mxGeometry x="0.1185" y="-3" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Authenticate User&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="PSvwiCBbMOOz6akU89Iw-5" target="PSvwiCBbMOOz6akU89Iw-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="260" />
+              <mxPoint x="600" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-5" value="Login Service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="PSvwiCBbMOOz6akU89Iw-8" target="PSvwiCBbMOOz6akU89Iw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Store and retrieve tweets and messages&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PSvwiCBbMOOz6akU89Iw-8" target="PSvwiCBbMOOz6akU89Iw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="PSvwiCBbMOOz6akU89Iw-8" target="PSvwiCBbMOOz6akU89Iw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Tweet &amp;amp; Chat Service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-11" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvwiCBbMOOz6akU89Iw-14" value="Kafka Broker &amp;amp; Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="530" y="525" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
